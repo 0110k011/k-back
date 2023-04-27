@@ -1,7 +1,5 @@
 .idea
 target
-mvnw
 HELP.md
-mvnw.cmd
 src/main/java/com/k/backend/Configs.java
 
