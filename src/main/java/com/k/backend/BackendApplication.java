@@ -34,9 +34,9 @@ public class BackendApplication {
 
 			String userJson = obj.getOk().toString();
 			User[] userArray = gson.fromJson(userJson, User[].class);
-			for(User user : userArray) {
-				System.out.println(user);
-			}
+			//for(User user : userArray) {
+			//	System.out.println(user);
+			//}
 
 			return gson.toJson(obj.getOk());
 			//return getUpdatesRequest.getUpdates(token);
