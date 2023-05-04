@@ -26,7 +26,7 @@ public class BackendApplication {
 
 		try {
 			//TelegramConnectionService telegramConnectionService = new TelegramConnectionService();
-			GetUpdatesRequest getUpdatesRequest = new GetUpdatesRequest();
+			//GetUpdatesRequest getUpdatesRequest = new GetUpdatesRequest();
 			//return telegramConnectionService.connectToAPI(new String(token), "");
 			Gson gson = new Gson();
 			String test = getUpdatesRequest.getUpdates(token);
